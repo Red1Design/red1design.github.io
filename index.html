@@ -2,4 +2,25 @@
 layout: default
 title: Home
 ---
-<h1>{{ site.title }}</h1>
+<div class="uc-container">
+  <div class="uc-img">
+    <img alt="" class="bg-img" src="/assets/images/snowy-trees-wallpaper.jpg"/>
+    <div class="uc-overlay">
+      <div class="uc-caption"><p>This page is currently under construction</div>
+        <div class="uc-logo">
+          <img class="logo-img" alt="" src="/assets/images/Logo.png"/>
+        </div>
+    </div>
+  </div>
+  <div class="uc-contact">
+    <form class="contact-form" name="sentMessage" id="contactForm" action="https://formspree.io/codejuro@gmail.com" method="POST" novalidate>
+      <input type="hidden" name="_next" value="{{ site.url }}?success=1" />
+      <input class="cinp" name="name" type="text" value="" placeholder="Name" required data-validation-required-message="Please enter your name."/>
+      <input class="cinp" name="email" type="email" value="" placeholder="Email Address"
+             required data-validation-required-message="Please enter your email."/>
+      <input class="cinp" name="contact-no" type="text" value="" placeholder="Contact Number(Optional)"/>
+      <textarea class="cinp textar" name="body" placeholder="Please let us know what you want to say." required data-validation-required-message="Please say something."></textarea>
+      <input class="cinp submit" type="submit" value="Send">
+    </form>
+  </div>
+</div>
