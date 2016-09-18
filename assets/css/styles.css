@@ -59,12 +59,12 @@ ul {
   flex-direction: row;
   justify-content: center;
 }
-.logo-img-wrapper {
+.uc-logo .logo-img-wrapper {
   height: 40%;
   margin-top: 30%;
 }
 
-.uc-logo {
+.logo-img {
   height: 100%;
 }
 .uc-contact {
