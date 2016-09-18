@@ -119,9 +119,13 @@ ul {
     text-align: center;
     margin-left: 0;
   }
-  .uc-logo .logo-img {
+  .uc-logo .logo-img-wrapper {
     height: 120%;
     margin-top: 15%;
+  }
+  
+  .uc-logo .logo-img-wrapper .logo-img{
+    height: 100%;
   }
   .uc-contact {
     padding: 10px;
