@@ -59,9 +59,13 @@ ul {
   flex-direction: row;
   justify-content: center;
 }
-.uc-logo .logo-img {
+.logo-img-wrapper {
   height: 40%;
   margin-top: 30%;
+}
+
+.uc-logo {
+  height: 100%;
 }
 .uc-contact {
   min-height: 25vh;
